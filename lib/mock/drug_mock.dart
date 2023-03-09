@@ -1,0 +1,58 @@
+import '../features/transactions/models/drug.dart';
+
+List<Drug> get getAvailableDrugs => <Drug>[
+      const Drug(
+          name: 'Fentanyl',
+          concentration: 50,
+          concentrationUnit: 'µg/ml',
+          quantity: 2,
+          quantityUnit: 'ml',
+          dosageForm: 'Injektionsvätska, lösning',
+          routeOfAdministration: [],
+          atc: 'N02BE01'),
+      const Drug(
+          name: 'Morfin',
+          concentration: 10,
+          concentrationUnit: 'mg/ml',
+          quantity: 1,
+          quantityUnit: 'ml',
+          dosageForm: 'Injektionsvätska, lösning',
+          routeOfAdministration: [],
+          atc: 'N02AA01'),
+      const Drug(
+          name: 'Stesolid',
+          concentration: 5,
+          concentrationUnit: 'mg/ml',
+          quantity: 2,
+          quantityUnit: 'ml',
+          dosageForm: 'Injektionsvätska, emulsion',
+          routeOfAdministration: [],
+          atc: 'N05BA01'),
+      const Drug(
+          name: 'Stesolid',
+          concentration: 5,
+          concentrationUnit: 'mg/ml',
+          quantity: 2.5,
+          quantityUnit: 'ml',
+          dosageForm: 'Rektallösning',
+          routeOfAdministration: [],
+          atc: 'N05BA01'),
+      const Drug(
+          name: 'Ketanest',
+          concentration: 5,
+          concentrationUnit: 'mg/ml',
+          quantity: 5,
+          quantityUnit: 'ml',
+          dosageForm: 'Injektions-/infusionsvätska, lösning',
+          routeOfAdministration: [],
+          atc: 'N01AX14'),
+      const Drug(
+          name: 'Rapifen',
+          concentration: 0.5,
+          concentrationUnit: 'mg/ml',
+          quantity: 5,
+          quantityUnit: 'ml',
+          dosageForm: 'Injektions-/infusionsvätska, lösning',
+          routeOfAdministration: [],
+          atc: 'N01AH02'),
+    ];
